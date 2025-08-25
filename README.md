@@ -11,6 +11,13 @@
 
 Este projeto fornece uma análise abrangente da rotatividade de funcionários usando o framework DDPP (Descritiva → Diagnóstica → Preditiva → Prescritiva). A análise foi realizada em um dataset de 9.540 funcionários para identificar fatores-chave que influenciam a rotatividade e desenvolver estratégias acionáveis de retenção.
 
+## 📊 Fonte dos Dados
+
+**Dataset**: [Employee Turnover Dataset](https://www.kaggle.com/datasets/marikastewart/employee-turnover/data)  
+**Fonte**: Kaggle - Marika Stewart  
+**Tamanho**: 9.540 registros de funcionários  
+**Formato**: CSV com 10 variáveis (9 features + 1 target)
+
 ## 🎯 Objetivo de Negócio
 
 Analisar dados de rotatividade de funcionários para:
@@ -172,7 +179,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy joblib
 jupyter notebook
 
 # Navegar para o arquivo principal
-analise_rotatividade_Qoder.ipynb
+analise_rotatividade.ipynb
 
 # Executar todas as células
 Cell → Run All
@@ -311,7 +318,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy joblib
 ### Execução
 ```bash
 # Executar análise completa
-jupyter notebook analise_rotatividade_Qoder.ipynb
+jupyter notebook analise_rotatividade.ipynb
 ```
 
 ## ⚠️ FATORES DE RISCO E MITIGAÇÃO
@@ -386,14 +393,24 @@ O arquivo `analise_rotatividade.ipynb` contém **TODA** a análise em um único 
 - ✅ Recomendações específicas por departamento
 - ✅ Estratégia de monitoramento contínuo com medidas de mitigação
 
-## 📞 Suporte e Contato
-
-Para questões sobre esta análise ou suporte de implementação, entre em contato com a equipe de ciência de dados.
-
----
 
 **Nota**: Esta análise fornece insights baseados em dados para tomada de decisão estratégica. A implementação deve ser adaptada ao contexto organizacional específico e requisitos legais.
 
 **Status**: ✅ **PROJETO COMPLETO E PRONTO PARA IMPLEMENTAÇÃO**  
 **Arquivo Principal**: `analise_rotatividade.ipynb`  
 **Framework**: DDPP (Descritiva → Diagnóstica → Preditiva → Prescritiva)
+
+---
+
+## 📞 Contato
+
+**Autor**: Eanes Santos Ribeiro  
+**Email**: [eanesribeiro@gmail.com](mailto:eanesribeiro@gmail.com)  
+**LinkedIn**: [https://www.linkedin.com/in/eanessantosribeiro/](https://www.linkedin.com/in/eanessantosribeiro/)  
+**GitHub**: [https://github.com/EanesRibeiro](https://github.com/EanesRibeiro)
+
+### 📝 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte de uma análise abrangente de rotatividade de funcionários, aplicando metodologias científicas de ciência de dados e frameworks estruturados para gerar insights acionáveis no ambiente corporativo.
+
+Para dúvidas, sugestões ou colaborações, entre em contato através dos canais acima.
