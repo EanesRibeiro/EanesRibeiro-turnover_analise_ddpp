@@ -654,3 +654,14 @@ O arquivo `analise_rotatividade.ipynb` contém **TODA** a análise em um único 
 Este projeto foi desenvolvido como parte de uma análise abrangente de rotatividade de funcionários, aplicando metodologias científicas de ciência de dados e frameworks estruturados para gerar insights acionáveis no ambiente corporativo.
 
 Para dúvidas, sugestões ou colaborações, entre em contato através dos canais acima.
+
+---
+
+### 🤖 Transparência sobre Uso de IA
+
+Este README foi formatado e aprimorado com o auxílio de ferramentas de Inteligência Artificial para:
+- 📝 Estruturação e organização do conteúdo
+- ✏️ Correções gramaticais e de formatação
+- 📊 Padronização da documentação técnica
+- 🎨 Melhoria da apresentação visual com emojis e badges
+
