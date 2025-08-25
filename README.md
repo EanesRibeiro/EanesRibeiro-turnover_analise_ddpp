@@ -103,7 +103,7 @@ Considerando fatores de incerteza (taxa de sucesso, variação de custos, reten�
 ```
 Turnover_Qoder/
 ├── 📊 employee_churn_data.csv          # Dataset original (9.540 funcionários)
-├── 📓 analise_rotatividade_Qoder.ipynb       # 🏆 ARQUIVO PRINCIPAL - Análise completa DDPP
+├── 📓 analise_rotatividade.ipynb       # 🏆 ARQUIVO PRINCIPAL - Análise completa DDPP
 ├── 📁 outputs/                         # Visualizações geradas
 │   ├── 01_taxa_rotatividade_geral.png
 │   ├── 02_descriptive_analysis.png
@@ -395,5 +395,5 @@ Para questões sobre esta análise ou suporte de implementação, entre em conta
 **Nota**: Esta análise fornece insights baseados em dados para tomada de decisão estratégica. A implementação deve ser adaptada ao contexto organizacional específico e requisitos legais.
 
 **Status**: ✅ **PROJETO COMPLETO E PRONTO PARA IMPLEMENTAÇÃO**  
-**Arquivo Principal**: `analise_rotatividade_Qoder.ipynb`  
+**Arquivo Principal**: `analise_rotatividade.ipynb`  
 **Framework**: DDPP (Descritiva → Diagnóstica → Preditiva → Prescritiva)
