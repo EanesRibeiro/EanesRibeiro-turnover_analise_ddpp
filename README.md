@@ -1,5 +1,12 @@
 # Análise de Rotatividade de Funcionários - Framework DDPP
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/EanesRibeiro/turnover_anlise_ddpp)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+[![Framework](https://img.shields.io/badge/Framework-DDPP-green)](https://github.com/EanesRibeiro/turnover_anlise_ddpp)
+[![Status](https://img.shields.io/badge/Status-Complete-success)](https://github.com/EanesRibeiro/turnover_anlise_ddpp)
+[![ROI](https://img.shields.io/badge/ROI-8.4%25--44.7%25-brightgreen)](https://github.com/EanesRibeiro/turnover_anlise_ddpp)
+
 ## 📋 Visão Geral do Projeto
 
 Este projeto fornece uma análise abrangente da rotatividade de funcionários usando o framework DDPP (Descritiva → Diagnóstica → Preditiva → Prescritiva). A análise foi realizada em um dataset de 9.540 funcionários para identificar fatores-chave que influenciam a rotatividade e desenvolver estratégias acionáveis de retenção.
