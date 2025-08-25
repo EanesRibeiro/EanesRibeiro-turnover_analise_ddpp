@@ -109,22 +109,19 @@ Considerando fatores de incerteza (taxa de sucesso, variação de custos, reten�
 
 ```
 Turnover_Qoder/
-├── 📊 employee_churn_data.csv          # Dataset original (9.540 funcionários)
+├── 📊 employee_churn_data.csv          # Dataset original (9.540 funcionários) - EXCLUÍDO DO GIT
 ├── 📓 analise_rotatividade.ipynb       # 🏆 ARQUIVO PRINCIPAL - Análise completa DDPP
 ├── 📁 outputs/                         # Visualizações geradas
-│   ├── 01_taxa_rotatividade_geral.png
-│   ├── 02_descriptive_analysis.png
-│   ├── 03_correlation_matrix.png
-│   ├── 04_feature_importance.png
-│   ├── 04_matriz_correlacao.png
-│   ├── 05_analise_roi_sensibilidade.png
-│   └── test_churn_distribution.png
-├── 🤖 modelos/                        # Modelos de machine learning
-│   ├── modelo_rotatividade.pkl         # Modelo Random Forest treinado
+│   ├── 01_taxa_rotatividade_geral.png  # Taxa geral de rotatividade (29,2%)
+│   └── 04_matriz_correlacao.png        # Matriz de correlação entre variáveis
+├── 🤖 modelos/                         # Modelos de machine learning
+│   ├── best_model.pkl                  # Melhor modelo Random Forest treinado
+│   ├── modelo_rotatividade.pkl         # Modelo principal de rotatividade
 │   ├── scaler.pkl                      # Scaler para preprocessamento
 │   ├── label_encoder_dept.pkl          # Encoder para departamentos
 │   └── label_encoder_salary.pkl        # Encoder para salários
-└── 📋 README.md                        # Este arquivo
+├── 📋 README.md                        # Este arquivo
+└── 🔒 .gitignore                       # Configurações de exclusão do Git
 ```
 
 ## 🔬 Metodologia (Framework DDPP)
@@ -187,7 +184,7 @@ Cell → Run All
 
 ### Saídas Geradas
 - **Visualizações**: Automaticamente salvas na pasta `outputs/`
-- **Modelos**: Modelo treinado salvo como `outputs/modelo_rotatividade.pkl`
+- **Modelos**: Modelos treinados salvos na pasta `modelos/`
 - **Relatórios**: Conclusões integradas no próprio notebook
 
 ## 🎯 RECOMENDAÇÕES ESTRATÉGICAS
@@ -272,8 +269,8 @@ Cell → Run All
 ### Uso do Modelo
 ```python
 import joblib
-model = joblib.load('outputs/modelo_rotatividade.pkl')
-scaler = joblib.load('outputs/scaler.pkl')
+model = joblib.load('modelos/modelo_rotatividade.pkl')
+scaler = joblib.load('modelos/scaler.pkl')
 
 # Prever probabilidade de rotatividade para dados de novo funcionário
 probability = model.predict_proba(scaled_features)[:, 1]
@@ -283,10 +280,9 @@ risk_level = "Alto" if probability > 0.7 else "Médio" if probability > 0.4 else
 ## 📊 Principais Visualizações
 
 1. **Distribuição Geral de Rotatividade**: Gráfico de pizza e barras mostrando 29,2% de rotatividade
-2. **Análise Departamental**: Taxas de rotatividade por departamento e nível salarial
-3. **Matriz de Correlação**: Relacionamentos entre todas as variáveis numéricas
-4. **Importância das Features**: Quais fatores mais predizem rotatividade
-5. **🆕 Análise de Sensibilidade ROI**: Comparação visual de cenários e avaliação de riscos
+2. **Matriz de Correlação**: Relacionamentos entre todas as variáveis numéricas
+
+**Nota**: Outras visualizações são geradas dinamicamente durante a execução do notebook e podem ser salvas conforme necessário.
 
 ## 📈 MÉTRICAS DE SUCESSO E MONITORAMENTO
 
