@@ -149,9 +149,8 @@ Thumbs.db
 *.temp
 *.bak
 
-# Data files (keep sample data but ignore large datasets)
-# Uncomment the next line if you want to ignore the CSV data file
-# *.csv
+# Data files (exclude CSV files from repository)
+*.csv
 
 # Log files
 *.log
