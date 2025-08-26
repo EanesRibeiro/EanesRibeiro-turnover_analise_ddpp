@@ -132,7 +132,7 @@ Considerando fatores de incerteza (taxa de sucesso, variação de custos, reten�
 ```
 Turnover_Qoder/
 ├── 📊 employee_churn_data.csv          # Dataset original (9.540 funcionários) - EXCLUÍDO DO GIT
-├── 📓 analise_rotatividade.ipynb       # 🏆 ARQUIVO PRINCIPAL - Análise completa DDPP
+├── 📓 analise_turnover.ipynb       # 🏆 ARQUIVO PRINCIPAL - Análise completa DDPP
 ├── 📁 outputs/                         # Visualizações geradas
 │   ├── 01_taxa_rotatividade_geral.png  # Taxa geral de rotatividade (29,2%)
 │   └── 04_matriz_correlacao.png        # Matriz de correlação entre variáveis
